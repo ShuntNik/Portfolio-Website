@@ -1,0 +1,31 @@
+<div className="slider">
+                <div className="works-container">
+                    <div className="works-item">
+                        <div className="works-left">
+                            <div className="leftcontainer">
+                                <div className="imgcontainer">
+                                    <img className="mobile-img" src="assets/mobile.png" alt="" />
+                                </div>
+                                <h2 className="works-title">Project - Driver drowsiness detection</h2>
+                                <p className="works-info">Detecting drowsiness in drivers using Arduino, GSM module and eye-blink sensor.</p>
+                            </div>
+                        </div>
+                        <div className="works-right">
+                            <img className="right-image" src="assets/arduino.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p><Link to="/">Home</Link></p>
+                            <p><Link to="/about">About</Link></p>
+                            <p><Link to="/works">Works</Link></p>
+                            <p><Link to="/contact">Contact</Link></p>
+
+
+                            <Routes>
+                                <Route path="/" element={<Home />} />
+                                <Route path="about" element={<About />} />
+                                <Route path="works" element={<Works />} />
+                                <Route path="contact" element={<Contact />} />
+                              </Routes>
